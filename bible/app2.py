@@ -8,15 +8,15 @@ from pydub.silence import split_on_silence
 #create docker file to test out 
 # TODO need to account for ranges of bible verses, can use regex splicing to do this
 
-# os.chdir('./bible')
+#os.chdir('./bible')
 
 
-# def welcome():
-#     playsound('./welcome.mp3')
+def welcome():
+    playsound('./welcome.mp3')
 
 
 def main():
-#    welcome()
+    welcome()
 
     # Speech input
     r = sr.Recognizer()
